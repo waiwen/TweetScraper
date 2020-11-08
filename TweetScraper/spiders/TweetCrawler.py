@@ -1,9 +1,7 @@
 import re, json, logging
 from urllib.parse import quote
-
 from scrapy import http
 from scrapy.spiders import CrawlSpider
-from scrapy.shell import inspect_response
 from scrapy.core.downloader.middleware import DownloaderMiddlewareManager
 from scrapy_selenium import SeleniumRequest, SeleniumMiddleware
 
